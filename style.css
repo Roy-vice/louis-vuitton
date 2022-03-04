@@ -1,0 +1,44 @@
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+            background-color: none;
+            color: black;
+        }
+        
+        body {
+            font-family: sans-serif;
+        }
+        
+        nav {
+            background-color: none;
+            height: 40px;
+            width: 100%;
+            font-size: 13px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: space-around;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+        
+        label.logo {
+            color: black;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 70px;
+            padding: 0 90px;
+            font-weight: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            line-height: 50px;
+            margin: 0 18px;
+        }
