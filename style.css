@@ -42,3 +42,25 @@
             line-height: 50px;
             margin: 0 18px;
         }
+        
+        .musthaves {
+            margin-left: 4%;
+            font-weight: 800;
+        }
+        
+        .showfilters {
+            margin-left: 4%;
+            font-weight: 550;
+        }
+        
+        .filters {
+            display: flex;
+            gap: 70px;
+            margin: 0 -1px;
+        }
+        
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+        }
